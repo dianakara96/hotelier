@@ -224,7 +224,7 @@ import user_icon from '../assets/person.png';
 import email_icon from '../assets/email.png';
 import password_icon from '../assets/password.png';
 import { useNavigate } from 'react-router-dom';
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 
 axios.defaults.xsrfCookieName = 'csrftoken';

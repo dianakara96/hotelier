@@ -182,7 +182,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Carousel from './Carousel'; // Ensure this path is correct
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 
 axios.defaults.xsrfCookieName = 'csrftoken';

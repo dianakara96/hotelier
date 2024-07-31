@@ -5,7 +5,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from './Carousel';
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 
 // Sample static images

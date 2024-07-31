@@ -85,7 +85,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 
 axios.defaults.xsrfCookieName = 'csrftoken';

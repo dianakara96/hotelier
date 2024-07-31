@@ -220,7 +220,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from './Carousel';
 import Review from './Review'; // Import the Review component
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 // Sample static images and facilities
 const staticImages = [

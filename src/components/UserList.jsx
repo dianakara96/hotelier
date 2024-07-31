@@ -66,7 +66,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../styles/UserList.css';
-import BASE_URL from '../../config';
+import BASE_URL from './config';
 
 
 const UserList = () => {
