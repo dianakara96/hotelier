@@ -1,18 +1,29 @@
 {
   "name": "hotelier",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/dianakara96/hotelier.git",
-  "author": "dianakara96 <162121165+dianakara96@users.noreply.github.com>",
-  "license": "MIT",
-  "private": false,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "postcss.config.js",
+  "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
-    "gh-pages": "^6.1.1",
     "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.4.7"
   }
 }
